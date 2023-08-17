@@ -19,6 +19,8 @@
 }
 
 .logo {
+  transition: opacity 0.3s ease-in-out;
+
   &:focus {
     opacity: 0.6;
   }
@@ -33,6 +35,8 @@
 }
 
 .open-menu {
+  transition: opacity 0.3s ease-in-out;
+
   &:focus {
     opacity: 0.6;
   }
@@ -60,6 +64,8 @@
 }
 
 .social-link {
+  transition: opacity 0.3s ease-in-out;
+
   &:focus {
     opacity: 0.6;
   }

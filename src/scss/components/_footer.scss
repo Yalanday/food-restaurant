@@ -12,6 +12,19 @@
   font-size: 16px;
   line-height: 22.4px;
   color: #fff;
+  transition: opacity 0.3s ease-in-out;
+
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .autor-link {
@@ -19,4 +32,17 @@
   font-size: 16px;
   line-height: 22.4px;
   color: #fff;
+  transition: opacity 0.3s ease-in-out;
+
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
