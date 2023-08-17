@@ -1,0 +1,26 @@
+.header {
+  &__list {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+    max-width: 700px;
+    gap: 50px;
+  }
+
+  &__item {
+    padding: 10px 0;
+
+    &--brown {
+      padding-right: 20px;
+      padding-left: 20px;
+      background-color: #b59571;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+}
