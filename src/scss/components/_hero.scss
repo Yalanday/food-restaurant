@@ -1,11 +1,19 @@
 .hero {
+  // margin-bottom: 150px;
+  // padding-top: 700px;
+  // width: 100%;
+  // height: 1000px;
+  background:
+    url("../../img/hero-bcg.jpg"),
+    #888273;
+  background-size: cover;
+}
+
+.hero__container {
   margin-bottom: 150px;
   padding-top: 700px;
   width: 100%;
   height: 1000px;
-  background:
-    url("../../img/hero-bcg.jpg"),
-    #888273;
 }
 
 .hero__title {

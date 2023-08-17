@@ -9,7 +9,17 @@
 }
 
 .contacts__title {
+  display: flex;
+  align-items: center;
   grid-column: 2 span;
+  gap: 30px;
+
+  &::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #b59571;
+  }
 }
 
 .contacts__list {
@@ -130,6 +140,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 25.2px;
+  color: #fff;
 }
 
 .contacts__time-work-item time {
