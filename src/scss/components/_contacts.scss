@@ -1,0 +1,147 @@
+.contacts {
+  position: relative;
+  display: grid;
+  column-gap: 134px;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: 416px 1fr;
+  padding: 0 312px;
+}
+
+.contacts__title {
+  grid-column: 2 span;
+}
+
+.contacts__list {
+  display: grid;
+  column-gap: 24px;
+  grid-column: 1/2;
+  grid-template-columns: 196px 196px;
+  row-gap: 50px;
+  /* stylelint-disable-next-line order/properties-order */
+  list-style: none;
+  margin: 0;
+  max-width: 420px;
+  gap: 24px;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__item-title {
+  display: flex;
+  align-items: first baseline;
+  margin: 0;
+  color: #b59571;
+  gap: 15px;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76.8px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.contacts__map {
+  grid-column: 2/-1;
+  width: 100%;
+  height: 450px;
+}
+
+.contacts__sticker {
+  position: absolute;
+  left: 52%;
+  top: 25%;
+  padding: 40px;
+  width: 416px;
+  background-color: #5b5b5b;
+  transform: translateX(-50%);
+}
+
+.contacts__sticker-address {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 21px;
+  width: 336px;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #fff;
+  gap: 15px;
+
+  &::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../../img/pin-icon.svg");
+  }
+}
+
+.contacts__sticker-phone {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #fff;
+  gap: 15px;
+
+  &::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../../img/phone-icon.svg");
+  }
+}
+
+.contacts__time-work-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.contacts__time-work-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  gap: 15px;
+}
+
+.contacts__time-work-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25.2px;
+}
+
+.contacts__time-work-item time {
+  font-weight: 400;
+}
+
+.contacts__sticker-buttons {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+
+.contacts__sticker-button {
+  flex-shrink: 0;
+}
