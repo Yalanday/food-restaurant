@@ -379,17 +379,17 @@ validateForms('.form-1', rules1, afterForm);
 ```
 
 <div class="cards">
-  <div class="cards__item">Текст</div>
-  <div class="cards__item">Текст</div>
-  <div class="cards__item">Текст</div>
-  <div class="cards__item">Текст</div>
-  <div class="cards__item">Текст</div>
-  <div class="cards__item">Текст</div>
+  <div class="cards__inav-tem">Текст</div>
+  <div class="cards__inav-tem">Текст</div>
+  <div class="cards__inav-tem">Текст</div>
+  <div class="cards__inav-tem">Текст</div>
+  <div class="cards__inav-tem">Текст</div>
+  <div class="cards__inav-tem">Текст</div>
 </div>
 
 $options: (
   parentClass: "cards",
-  itemsClass: "cards__item",
+  itemsClass: "cards__inav-tem",
   desktopGap: 30px,
   desktopElems: 3,
   tablet: "1024px",

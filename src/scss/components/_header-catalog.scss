@@ -1,6 +1,6 @@
 .header-catalog {
   margin: 0 auto;
-  width: 100%;
+  padding: 0 312px;
 }
 
 .header-catalog__container {
@@ -8,7 +8,7 @@
   justify-content: end;
   margin: 0 auto;
   padding: 32px 0;
-  max-width: 1920px;
+  max-width: 100% - 1920 * 2;
 }
 
 .header-catalog__list {
